@@ -1,0 +1,17 @@
+/* This file is only for overriding custom classes */
+
+/* This override prevents the "official website of.. " text
+  centered.
+*/
+.usa-banner__inner,
+.usa-banner__header--expanded .usa-banner__inner {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* This override prevents the centering of content on expand.  */
+.usa-banner__content {
+  margin: 0;
+  padding-left: 32px !important;
+  padding-right: 0 !important;
+}
