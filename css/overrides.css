@@ -1,5 +1,77 @@
 /* This file is only for overriding custom classes */
 
+h1,h2,h3,h4,h5,h6,
+.usa-prose > h2 {
+  font-family: Public Sans Web, Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+.usa-nav-container {
+  align-items: center !important;
+  background-color:  #252f3e; /* This color is not part of their design systems color palette */
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: inherit;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.usa-nav-container::after {
+  content: none;
+}
+
+.usa-nav-container .usa-nav {
+  height: 80px;
+  padding: 0;
+}
+
+.usa-nav .buttons {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.usa-navbar-right,
+.usa-navbar-right .buttons {
+  align-items: center;
+  display: flex;
+}
+
+.navbar__search .usa-input {
+  background-color: #13171f;
+  color: #fff;
+  height: 39px;
+  width: 160px;
+}
+
+.navbar__search .usa-button {
+  height: 39px;
+}
+
+.buttons .usa-button {
+  bottom: 0;
+  position: inherit;
+}
+
+.site-button-github.usa-button .logo path {
+  fill: rgba(255,255,255,.7);
+}
+
+.site-button-github.usa-button:hover .logo path {
+  fill: rgba(255,255,255,1);
+}
+
+.site-button-github .text {
+  left: -999em;
+  position: absolute;
+}
+
+#basic-search-field-small {
+  width: 170px;
+}
+
 /* This override prevents the "official website of.. " text
   centered.
 */
@@ -14,4 +86,98 @@
   margin: 0;
   padding-left: 32px !important;
   padding-right: 0 !important;
+}
+
+.usa-logo__text a {
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.site-header-dark .site-header-navbar {
+  background-color: #252f3e; /* This color is not part of their design systems color palette */
+  height: 5em;
+  width: 100%;
+}
+
+#basic-search-field-small {
+  background-color: #13171f; /* This color is not part of their design systems color palette */
+}
+
+.buttons .usa-button {
+  background-color: transparent;
+  bottom: -2px;
+  position: relative;
+}
+
+.buttons .usa-button.site-button-outline-secondary {
+  box-shadow: inset 0 0 0 2px rgba(255,255,255,.7);
+  background-color: transparent;
+  color: rgba(255,255,255,.7);
+}
+
+.site-header-dark .usa-button.site-button-outline-secondary:hover,
+.buttons .usa-button.site-button-outline-secondary:hover {
+  box-shadow: inset 0 0 0 2px #fff;
+  color: #fff;
+}
+
+.buttons .usa-button.site-button-standards {
+  box-shadow: inset 0 0 0 2px #e5a000;
+  color: #e5a000;
+  width: 219px;
+}
+
+.buttons .usa-button.site-button-download {
+  width: 160px;
+}
+
+/* font-lang-4 class wasn't working for me. */
+.ow-font-lang-4 {
+  font-size: .94rem;
+  line-height: 1.3;
+}
+
+/* USWDS MEDIA QUERY BREAK POINT */
+
+@media (max-width: 63.99em) {
+  .usa-nav-container {
+    height: 48px;
+  }
+
+  .usa-nav-container::after {
+    content: none;
+  }
+
+  .site-logo {
+    margin-left: 1em;
+  }
+
+  .usa-logo__text a {
+    font-size: .94rem;
+  }
+
+  .usa-navbar {
+    border: none;
+  }
+
+  .usa-navbar-right .buttons {
+    align-items: center;
+    display: flex;
+  }
+
+  .buttons .usa-button {
+    bottom: 0;
+    position: inherit;
+  }
+
+  .usa-navbar-right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1159px) {
+  .buttons .usa-button.site-button-download {
+    width: fit-content;
+  }  
 }

@@ -8,72 +8,611 @@
   <link rel="stylesheet" href="../css/main.css">
   <title>USWDS - Build</title>
 </head>
-<body>
-  <section class="usa-banner bg-base-darkest" aria-label="Official government website">
-    <div class="usa-accordion">
-      <header class="usa-banner__header">
-        <div class="usa-banner__inner text-white">
-          <div class="grid-col-auto">
-            <img class="usa-banner__header-flag" src="../node_modules/uswds/dist/img/us_flag_small.png" alt="U.S. flag">
-          </div>
-          <div class="grid-col-fill tablet:grid-col-auto">
-            <p class="usa-banner__header-text">An official website of the United States government</p>
-            <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
-          </div>
-          <button class="usa-accordion__button usa-banner__button"
-            aria-expanded="false" aria-controls="gov-banner">
-            <span class="usa-banner__button-text text-gray-30">Here’s how you know</span>
-          </button>
-        </div>
-      </header>
-      <div class="usa-banner__content text-white usa-accordion__content" id="gov-banner">
-        <div class="grid-row grid-gap-lg">
-          <div class="usa-banner__guidance tablet:grid-col-6">
-            <img class="usa-banner__icon usa-media-block__img" src="../node_modules/uswds/dist/img/icon-dot-gov.svg" role="img" alt="Dot gov">
-            <div class="usa-media-block__body">
-              <p>
-                <strong>
-                  Official websites use .gov
-  </strong>
-                <br/>
-                A <strong>.gov</strong> website belongs to an official government organization in the United States.
-  
-              </p>
+<body class="page-layout">
+
+  <div class="grid-row">
+    <section class="usa-banner bg-base-darkest grid-col-12" aria-label="Official government website">
+      <div class="usa-accordion">
+        <header class="usa-banner__header">
+          <div class="usa-banner__inner text-white">
+            <div class="grid-col-auto">
+              <img class="usa-banner__header-flag" src="../node_modules/uswds/dist/img/us_flag_small.png" alt="U.S. flag">
             </div>
+            <div class="grid-col-fill tablet:grid-col-auto">
+              <p class="usa-banner__header-text">An official website of the United States government</p>
+              <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+            </div>
+            <button class="usa-accordion__button usa-banner__button"
+              aria-expanded="false" aria-controls="gov-banner">
+              <span class="usa-banner__button-text text-gray-30">Here’s how you know</span>
+            </button>
           </div>
-          <div class="usa-banner__guidance tablet:grid-col-6">
-            <img class="usa-banner__icon usa-media-block__img" src="../node_modules/uswds/dist/img/icon-https.svg" role="img" alt="Https">
-            <div class="usa-media-block__body">
-              <p>
-                <strong>
-                  Secure .gov websites use HTTPS
-  </strong>
-                <br/>
-                A <strong>lock</strong> (
-  <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description"><title id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/></svg></span>
-  ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
-  
-              </p>
+        </header>
+        <div class="usa-banner__content text-white usa-accordion__content" id="gov-banner">
+          <div class="grid-row grid-gap-lg">
+            <div class="usa-banner__guidance tablet:grid-col-6">
+              <img class="usa-banner__icon usa-media-block__img" src="../node_modules/uswds/dist/img/icon-dot-gov.svg" role="img" alt="Dot gov">
+              <div class="usa-media-block__body">
+                <p>
+                  <strong>
+                    Official websites use .gov
+    </strong>
+                  <br/>
+                  A <strong>.gov</strong> website belongs to an official government organization in the United States.
+    
+                </p>
+              </div>
+            </div>
+            <div class="usa-banner__guidance tablet:grid-col-6">
+              <img class="usa-banner__icon usa-media-block__img" src="../node_modules/uswds/dist/img/icon-https.svg" role="img" alt="Https">
+              <div class="usa-media-block__body">
+                <p>
+                  <strong>
+                    Secure .gov websites use HTTPS
+    </strong>
+                  <br/>
+                  A <strong>lock</strong> (
+    <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description"><title id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/></svg></span>
+    ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+    
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <header class="usa-header site-header site-header-dark" role="banner">
-    <div class="usa-navbar site-header-navbar">
-      <div class="usa-logo site-logo"></div>
-    </div>
-  </header>
+    </section>
 
-  <!-- <div class="grid-container">
-    <div class="grid-row">
-      <div class="tablet:grid-col">tablet:grid-col</div>
-      <div class="tablet:grid-col">tablet:grid-col</div>
-      <div class="tablet:grid-col">tablet:grid-col</div>
+    <header class="usa-header usa-header--basic grid-col-12">
+
+      <div class="usa-nav-container">
+        <div class="usa-navbar">
+
+          <div class="site-logo">
+            <em class="usa-logo__text">
+              <a class="margin-right-05" href="/" title="Home" aria-label="Home">U.S. Web Design System (USWDS)</a>
+            </em>
+          </div>
+
+        </div>
+
+        <button class="usa-menu-btn">Menu</button>
+
+        <div class="usa-navbar-right">
+          <form id="search_form" class="navbar__search usa-search usa-search--small desktop:margin-right-2 display-none desktop:display-inline-block float-none text-middle" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+            <input name="utf8" type="hidden" value="✓">
+            <input type="hidden" name="affiliate" id="affiliate" value="uswds">
+            <div role="search">
+              <label class="usa-sr-only" for="query">Search</label>
+              <input id="query" class="usa-input usagov-search-autocomplete" name="query" type="search" autocomplete="off">
+              <button class="usa-button" type="submit" name="commit">
+                <span class="usa-sr-only">Search</span>
+              </button>
+            </div>
+          </form>
+
+          <div class="buttons">
+
+            <a class="usa-button site-button-outline-secondary site-button-standards margin-x-0 desktop:margin-right-1 padding-x-05 desktop:padding-left-1 desktop:padding-right-05 desktop-lg:padding-left-205 desktop-lg:padding-right-2 font-lang-sm" href="/website-standards/" onclick="ga('send', 'event', 'Read website standards', 'Clicked Read website standards from inside site');">
+              Read website standards
+            </a>
+
+            <a class="usa-button site-button-outline-secondary site-button-download margin-x-0 desktop:margin-right-1 desktop:padding-left-1 desktop:padding-right-05 desktop-lg:padding-left-205 desktop-lg:padding-right-2 font-lang-sm" href="/download/" onclick="ga('send', 'event', 'Downloaded code and design files', 'Clicked Download code and design files from inside site');">
+              Download <span class="version desktop-lg:display-inline">v2.9.0</span>
+            </a>
+
+            <a class="usa-button site-button-github margin-x-0 desktop:margin-right-4 font-lang-sm" href="https://github.com/uswds/uswds" onclick="ga('send', 'event', 'Viewed on Github', 'Clicked View on Github from inside site');">
+              <!--?xml version="1.0" encoding="UTF-8"?-->
+              <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" class="logo">
+                <title>Github logo</title>
+                <path fill="#161514" fill-rule="evenodd" d="M16.288 0C7.294 0 0 7.293 0 16.29c0 7.197 4.667 13.302 11.14 15.456.815.15 1.112-.353 1.112-.785 0-.386-.014-1.411-.022-2.77-4.531.984-5.487-2.184-5.487-2.184-.741-1.882-1.809-2.383-1.809-2.383-1.479-1.01.112-.99.112-.99 1.635.115 2.495 1.679 2.495 1.679 1.453 2.489 3.813 1.77 4.741 1.353.148-1.052.569-1.77 1.034-2.177-3.617-.411-7.42-1.809-7.42-8.051 0-1.778.635-3.233 1.677-4.371-.168-.412-.727-2.069.16-4.311 0 0 1.367-.438 4.479 1.67a15.602 15.602 0 0 1 4.078-.549 15.62 15.62 0 0 1 4.078.549c3.11-2.108 4.475-1.67 4.475-1.67.889 2.242.33 3.899.163 4.311 1.044 1.138 1.674 2.593 1.674 4.371 0 6.258-3.809 7.635-7.437 8.038.584.503 1.105 1.497 1.105 3.017 0 2.177-.02 3.934-.02 4.468 0 .436.294.943 1.12.784 6.468-2.159 11.131-8.26 11.131-15.455C32.579 7.293 25.285 0 16.288 0"></path>
+              </svg>
+          
+              <span class="text">View on GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+
+  </div>
+
+  <nav class="site-nav-secondary sticky">
+    <ul>
+      <li class="usa-nav__submenu-item is-current">
+        <a href="/how-to-use-uswds/" class="usa-current">
+          <span>
+            How to use USWDS
+          </span>
+        </a>
+      </li>
+
+      <li class="usa-nav__submenu-item">
+        <a href="/design-principles/">
+          <span>
+            Design principles
+          </span>
+        </a>
+      </li>
+  
+      <li class="usa-nav__submenu-item is-current">
+        <a href="/components/">
+          <span>
+            Components
+          </span>
+        </a>
+      </li>
+  
+      <li class="usa-nav__submenu-item">
+        <a href="/design-tokens/">
+          <span>
+            Design tokens
+          </span>
+        </a> 
+      </li>
+  
+      <li class="usa-nav__submenu-item">
+        <a href="/utilities/">
+          <span>
+            Utilities
+          </span>
+        </a> 
+      </li>
+
+      <li class="usa-nav__submenu-item">
+        <a href="/page-templates/">
+          <span>
+            Page templates
+          </span>
+        </a>
+      </li>
+  
+      <li class="usa-nav__submenu-item">    
+        <a href="/about/">
+          <span>
+            About
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="usa-overlay"></div>
+
+  <nav class="usa-nav site-nav sidenav-mobile">
+    <button class="usa-nav__close">
+      <span class="usa-sr-only">Close</span>
+    </button>
+
+    <div class="usa-nav__inner">
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link"  aria-controls="nav-how-to-use-uswds" aria-expanded="true">
+            How to use USWDS
+          </button>
+
+          <ul id="nav-how-to-use-uswds" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item is-current">          
+              <a href="/how-to-use-uswds/" class="usa-current">
+                <span>
+                  How to use USWDS
+                </span>
+              </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/website-standards/">
+                <span>
+                  Website standards
+                </span>
+              </a>  
+            </li>
+            <li class="usa-nav__submenu-item">          
+              <a href="/maturity-model/">
+                <span>
+                  USWDS maturity model
+                </span>
+              </a>  
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/fundamentals/">
+                <span>
+                  USWDS fundamentals and quickstart guide
+                </span>
+              </a>  
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/developers/">
+                <span>
+                  For developers
+                </span>
+              </a>  
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/designers/">
+                <span>
+                  For designers
+                </span>
+              </a>              
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/accessibility/">
+                <span>
+                  Accessibility
+                </span>
+              </a>  
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/settings/">
+                <span>
+                  Settings
+                </span>
+              </a>  
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/performance/">
+                <span>
+                  Performance guidelines
+                </span>
+              </a>              
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/code-guidelines/">
+                <span>
+                  Code guidelines
+                </span>
+              </a>
+            </li>  
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/migration/">
+                <span>
+                  Migrating to USWDS 2
+                </span>
+              </a>  
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/video-tutorials/">
+                <span>
+                  Video tutorials
+                </span>
+              </a>
+            </li>  
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/implementations/">
+                <span>
+                  Implementations
+                </span>
+              </a>          
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/showcase/">
+                <span>
+                  Showcase
+                </span>
+              </a>    
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/documentation/sample-contract-language/">
+                <span>
+                  Sample contract language for 21st Century IDEA
+                </span>
+              </a>
+            </li>
+          </ul>
+
+          <li class="usa-nav__primary-item">
+            <a href="/design-principles/">
+              <span>
+                Design principles
+              </span>
+            </a>
+          </li>
+
+          <li class="usa-nav__primary-item">
+            <a href="/page-templates/">
+              <span>
+                Page templates
+              </span>
+            </a>
+          </li>
+        </li>
+      </ul>
+
+      <div class="mobile-btns buttons">
+        <a class="usa-button site-button-outline-secondary site-button-standards margin-x-0 desktop:margin-right-1 padding-x-05 desktop:padding-left-1 desktop:padding-right-05 desktop-lg:padding-left-205 desktop-lg:padding-right-2 font-lang-sm" href="/website-standards/" onclick="ga('send', 'event', 'Read website standards', 'Clicked Read website standards from inside site');">
+          Read website standards
+        </a>
+
+        <a class="usa-button site-button-outline-secondary site-button-download margin-x-0 desktop:margin-right-1 desktop:padding-left-1 desktop:padding-right-05 desktop-lg:padding-left-205 desktop-lg:padding-right-2 font-lang-sm" href="/download/" onclick="ga('send', 'event', 'Downloaded code and design files', 'Clicked Download code and design files from inside site');">
+          Download <span class="version desktop:display-none desktop-lg:display-inline">v2.9.0</span>
+        </a>
+
+        <a class="usa-button site-button-github margin-x-0 desktop:margin-right-4 font-lang-sm" href="https://github.com/uswds/uswds" onclick="ga('send', 'event', 'Viewed on Github', 'Clicked View on Github from inside site');">
+          <!--?xml version="1.0" encoding="UTF-8"?-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" class="logo">
+            <title>Github logo</title>
+            <path fill="#161514" fill-rule="evenodd" d="M16.288 0C7.294 0 0 7.293 0 16.29c0 7.197 4.667 13.302 11.14 15.456.815.15 1.112-.353 1.112-.785 0-.386-.014-1.411-.022-2.77-4.531.984-5.487-2.184-5.487-2.184-.741-1.882-1.809-2.383-1.809-2.383-1.479-1.01.112-.99.112-.99 1.635.115 2.495 1.679 2.495 1.679 1.453 2.489 3.813 1.77 4.741 1.353.148-1.052.569-1.77 1.034-2.177-3.617-.411-7.42-1.809-7.42-8.051 0-1.778.635-3.233 1.677-4.371-.168-.412-.727-2.069.16-4.311 0 0 1.367-.438 4.479 1.67a15.602 15.602 0 0 1 4.078-.549 15.62 15.62 0 0 1 4.078.549c3.11-2.108 4.475-1.67 4.475-1.67.889 2.242.33 3.899.163 4.311 1.044 1.138 1.674 2.593 1.674 4.371 0 6.258-3.809 7.635-7.437 8.038.584.503 1.105 1.497 1.105 3.017 0 2.177-.02 3.934-.02 4.468 0 .436.294.943 1.12.784 6.468-2.159 11.131-8.26 11.131-15.455C32.579 7.293 25.285 0 16.288 0"></path>
+          </svg>
+      
+          <span class="text">View on GitHub</span>
+        </a>
+      </div>
     </div>
-  </div>  -->
+
+  </nav>  
+
+  <div class="default-container">
+    <!-- Side Navigation -->
+    <aside class="sidenav">
+
+      <nav aria-label="Secondary navigation">
+        <ul class="usa-sidenav">
+          <li class="usa-sidenav__item">
+            <a href="" class="usa-current">How to use USWDS</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Website standards</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">USWDS maturity model</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">USWDS fundamentals and quickstart guide</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">For developers</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">For designers</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Accessibility</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Settings</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Performance guidelines</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Code guidlines</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Migration to USWDS 2</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Video tutorials</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Implementations</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Showcase</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Sample contract language for 21st Century IDEA</a>
+          </li>
+        </ul>
+      </nav>
+
+    </aside>
+
+    <main class="main-content" id="main-content">
+      <div class="styleguide-content usa-prose site-prose">
+        <header>
+          <h1 id="how-to-use-uswds" class="site-page-title">How to use USWDS</h1>
+        </header>
+
+        <p class="site-text-intro">USWDS provides principles, guidance, and code to help you design and build accessible, mobile-friendly government websites and digital services.</p>
+      
+        <h2 id="get-started-with-uswds">Get started with USWDS</h2>
+
+        <div class="grid-row grid-gap">
+          <div class="tablet:grid-col">
+            <div class="site-docs-card-link">
+              <h3 class="font-lang-lg margin-0">
+                <a href="/getting-started/developers/" class="text-no-underline text-primary hover:text-underline block-link">Developers</a>
+              </h3>
+              <p class="margin-top-1">Get started with our code base by downloading the code as a zip file, or installing with npm.</p>
+            </div>
+          </div>
+          <div class="tablet:grid-col">
+            <div class="site-docs-card-link">
+              <h3 class="font-lang-lg margin-0">
+                <a href="/getting-started/designers/" class="text-no-underline text-primary hover:text-underline block-link">Designers</a>
+              </h3>
+              <p class="margin-top-1">Create wireframes and prototypes in Sketch or Adobe XD.</p>
+            </div>
+          </div>
+          <div class="tablet:grid-col">
+            <div class="site-docs-card-link">
+              <h3 class="font-lang-lg margin-0">
+                <a href="https://github.com/uswds/uswds/wiki" class="block-link text-no-underline text-primary hover:text-underline">USWDS project wiki</a>
+              </h3>
+              <p class="margin-top-1">Find detailed information about our design and development process, and our collected user research.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="border-top-05 border-primary padding-top-3 margin-top-6">Adopt USWDS incrementally</h2>
+
+        <div class="adopt grid-row">
+          <div class="tablet:grid-col-7">
+            <div class="">
+              <p>USWDS helps the federal government design and build better online experiences for the American public. As a toolkit to design and build government websites, the design system provides:</p>
+              <ol>
+                <li><strong>Principles:</strong> USWDS design principles support and reflect the important guidance codified in 21st Century IDEA.</li>
+                <li><strong>Guidance:</strong> USWDS user experience guidance provides best-practice advice for assuring components do what users expect them to do.</li>
+                <li><strong>Code:</strong> USWDS code provides an accessible, mobile-friendly experience across government sites. Teams can contribute new components back to USWDS.</li>
+              </ol>
+              <p>Together, these form a design system <a href="/maturity-model">maturity model</a>. Adopt the design system incrementally by starting to implement our <a href="/design-principles">design principles</a> in your project. Even before adding any USWDS code, you can also begin to adopt our UX guidance (like this <a href="/components/button/#accordion-bordered-docs">guidance for a button</a>). Then, start small and start to incorporate USWDS <a href="/design-tokens">design tokens</a> into your site design.</p>
+              <p>The design system is flexible, and we expect you to adapt it as you adopt it. Use the USWDS maturity model to build a solution that best meets your agency’s mission and user needs.</p>
+            </div>
+          </div>
+          <div class="tablet:grid-col-5">
+            <div class="padding-2 tablet:padding-left-4">
+              <img src="../assets/imgs/maturity-model.svg" role="img" alt="A diagram showing the concentric circles of the USWDS maturity model, progressing from Principles on the outside, through Guidance, and finally to Code in the innermost circle.">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+    
+    <footer class="usa-footer">
+      <div class="usa-footer__secondary-section bg-base-lightest">
+        <div class="grid-container">
+          <div class="grid-row">
+            <h3>Become part of the community</h3>
+            
+            <p>
+              USWDS is an active open source community of government engineers,
+              content specialists, and designers. Our contributors both in and out of
+              government support dozens of agencies and nearly 200 sites.
+            </p>
+
+          </div>
+
+          <div class="grid-row">
+            <div class="tablet:grid-col">
+              <div class="usa-media-block">
+                <img class="usa-media-block__img" src="../assets/imgs/icon-question.svg" alt="">
+                <div class="usa-media-block__body">
+                  <h4>Running into an issue?</h4>
+                  <a href="https://github.com/uswds/uswds/issues/new">
+                    Ask questions on GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tablet:grid-col">
+              <div class="usa-media-block">
+                <img class="usa-media-block__img" src="../assets/imgs/icon-slack.svg" alt="">
+                <div class="usa-media-block__body">
+                  <h4>Engage with the community</h4>
+                  <a href="https://chat.18f.gov/">
+                    Join our Slack channel
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tablet:grid-col">
+              <div class="usa-media-block">
+                <img class="usa-media-block__img" src="../assets/imgs/icon-envelope.svg" alt="">
+                <div class="usa-media-block__body">
+                  <h4>Reach the team</h4>
+                  <a href="mailto:uswds@support.digitalgov.gov">
+                    Send us an email
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tablet:grid-col">
+              <div class="usa-media-block">
+                <img class="usa-media-block__img" src="../assets/imgs/icon-twitter.svg" alt="">
+                <div class="usa-media-block__body">
+                  <h4>Stay updated</h4>
+                  <a href="https://twitter.com/USWDS">
+                    Follow us on Twitter
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-base-light padding-y-1 line-height-sans-3">
+        <div class="grid-container ow-font-lang-4">
+          Looking for USWDS v1 documentation?
+          <a href="https://v1.designsystem.digital.gov" class="text-ink text-bold hover:text-no-underline">Visit v1.designsystem.digital.gov</a>
+        </div>
+      </div>
+
+      <div class="footer-section-bottom">
+        <div class="grid-container ow-font-lang-4">
+          <p class="text-white">
+            The United States Web Design System is a project of GSA’s
+            <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service">Federal Acquisition Service</a>, <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">Office of Technology Transformation Services</a>. This website is hosted on
+            <a href="https://federalist.18f.gov">Federalist</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="usa-identifier bg-ink">
+      
+      <div class="grid-container">
+      
+        <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier">
+            <div class="usa-identifier__container">
+                <div class="usa-identifier__logos">
+                    <a href="javascript:void(0);" class="usa-identifier__logo">
+                        <img class="usa-identifier__logo-img" src="../assets/imgs/gsa-logo.svg" alt="GSA logo" role="img">
+                    </a>
+                </div>
+                <div class="usa-identifier__identity" aria-label="Agency description">
+                    <p class="usa-identifier__identity-domain">designsystem.digital.gov</p>
+                    <p class="usa-identifier__identity-disclaimer">
+                        An official website of the <a href="https://gsa.gov" class="text-gray-10">General Services Administration</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links">
+          <div class="usa-identifier__container">
+              <ul class="usa-identifier__required-links-list">
+                  <li class="usa-identifier__required-links-item">
+                      <a href="https://www.gsa.gov/about-us" class="usa-identifier__required-link usa-link">
+                          About GSA
+                      </a>
+                  </li>
+                  <li class="usa-identifier__required-links-item">
+                      <a href="https://www.gsa.gov/website-information/accessibility-aids" class="usa-identifier__required-link usa-link">
+                          Accessibility support
+                      </a>
+                  </li>
+                  <li class="usa-identifier__required-links-item">
+                      <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link">
+                          FOIA requests
+                      </a>
+                  </li>
+                  <li class="usa-identifier__required-links-item">
+                      <a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" class="usa-identifier__required-link usa-link">
+                          No FEAR Act data
+                      </a>
+                  </li>
+                  <li class="usa-identifier__required-links-item">
+                      <a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link">
+                          Office of the Inspector General
+                      </a>
+                  </li>
+                  <li class="usa-identifier__required-links-item">
+                      <a href="https://www.gsa.gov/reference/reports/budget-performance" class="usa-identifier__required-link usa-link">
+                          Performance reports
+                      </a>
+                  </li>
+                  <li class="usa-identifier__required-links-item">
+                      <a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-policy-and-procedures-guide" class="usa-identifier__required-link usa-link">
+                          Privacy policy
+                      </a>
+                  </li>
+              </ul>
+          </div>
+        </nav>
+
+        <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="Government information and services">
+            <div class="usa-identifier__container">
+                <div class="usa-identifier__usagov-description">Looking for U.S. government information and services?</div>
+                <a href="https://www.usa.gov/" class="usa-link">Visit USA.gov</a>
+            </div>
+        </section>
+
+      </div>
+
+    </div>
+  </div>
 
   <script src="../node_modules/uswds/dist/js/uswds.min.js"></script>
 </body>
