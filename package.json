@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "uswds": "^2.8.1"
+    "uswds": "^2.9.0"
   }
 }
