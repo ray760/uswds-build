@@ -10,9 +10,11 @@ const cardData = async () => {
   const response = await fetch(uri);
   const cards = await response.json();
 
+  const data = cards.cards;
+
   let cardTemplate = '';
 
-  cards.forEach( card => {
+  data.forEach( card => {
     cardTemplate += `
     <div class="desktop:grid-col-3 tablet:grid-col-4 mobile-lg:grid-col-6 grid-col-12">
       <h5>${card.title}</h5>
